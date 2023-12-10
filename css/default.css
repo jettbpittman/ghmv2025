@@ -1,0 +1,68 @@
+body {
+    background-color: #fafad2;
+    margin: auto;
+    text-align: center;
+    font-family: "EB Garamond";
+}
+
+.header table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: 2% auto;
+}
+
+.header-table img {
+}
+
+.header-nav th, .header-nav td {
+    border-left: #fafad2 solid 1px;
+    border-right: #fafad2 solid 1px;
+    width: auto;
+}
+
+.header-nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.header-nav-row {
+    width: 100%;
+    background-color: #0b4d0b;
+    margin: 0;
+}
+
+.header {
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.footer {
+    background-color: #fad168;
+    color: #FFFFFF;
+    width: 100%;
+    margin: 0;
+}
+
+.header-nav {
+    background-color: #0b4d0b;
+    width: 100%;
+}
+
+.slate {
+    background-color: #fad168;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    border: solid black 1px;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 12px;
+    }
+    .header-table img {
+        height: 137px;
+        width: 120px;
+    }
+}

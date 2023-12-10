@@ -1,0 +1,40 @@
+.slate {
+    border-collapse: collapse;
+}
+
+.slate td {
+    border: 1px black solid;
+    vertical-align: top;
+}
+
+#ticket-table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 30%;
+}
+
+#ticket-table th, #ticket-table td {
+    border: 1px black solid;
+}
+
+#calendar-table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 30%;
+}
+
+#calendar-table td {
+    padding: 3px;
+}
+
+.cal-header {
+    font-weight: bold;
+    font-size: large;
+    text-align: left;
+}
+
+.cal-loc {
+    font-style: italic;
+}

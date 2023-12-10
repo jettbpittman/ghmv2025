@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GHMV Class of 2025</title>
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script>
+        fetch('/static/header.html')
+          .then(function(response) {
+            return response.text();
+          })
+          .then(function(body) {
+            document.querySelector('#header').innerHTML = body;
+          });
+    </script>
+</head>
+<body>
+    <div id="header"></div>
+    <table class="slate">
+        <tr>
+            <td id="gen-info" style="width: 65%">
+                <h2><u>J U N I O R&ensp;P L A Y</u></h2>
+                <h2><em>High Noon</em></h2>
+                <h3>
+                    December 12th, 2023<br>
+                    <em>~and~</em><br>
+                    December 15th, 2023<br>
+                    6:30 PM
+                </h3>
+                <h3><u>TICKETS</u></h3>
+                <table id="ticket-table">
+                    <tr>
+                        <th>INDIVIDUAL</th>
+                        <th>FAMILY PASS</th>
+                    </tr>
+                    <tr>
+                        <td><a href="https://greatheartsmontevista.configio.com/pd/1425/" style="color: black">Tuesday Night</a></td>
+                        <td><a href="https://greatheartsmontevista.configio.com/pd/1426/" style="color: black">Tuesday Night</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://greatheartsmontevista.configio.com/pd/1427/" style="color: black">Friday Night</a></td>
+                        <td><a href="https://greatheartsmontevista.configio.com/pd/1428/" style="color: black">Friday Night</a></td>
+                    </tr>
+                </table>
+                <h3><a href="/productions/2023-highnoon/castlist.html" style="color: black">CAST LIST</a></h3>
+            </td>
+            <td id="calendar" style="width: 35%">
+                <h2><u>C A L E N D A R</u></h2>
+                <table id="calendar-table">
+                    <tr>
+                        <td>
+                            <div class="cal-header">
+                                12 DECEMBER 2023, 6:30 PM - Night 1: <em>High Noon</em>
+                            </div>
+                            <div class="cal-loc">
+                                Location: GHMV - North Campus<br>
+                            </div>
+                            <div class="cal-body">
+                                Opening Night<br>
+                                CAST A
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="cal-header">
+                                15 DECEMBER 2023, 6:30 PM - Night 2: <em>High Noon</em>
+                            </div>
+                            <div class="cal-loc">
+                                Location: GHMV - North Campus<br>
+                            </div>
+                            <div class="cal-body">
+                                Closing Night<br>
+                                CAST B
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="cal-header">
+                                7 - 12 MARCH 2023 - Junior Trip
+                            </div>
+                            <div class="cal-loc">
+                                Location: Moab, Utah<br>
+                            </div>
+                            <div class="cal-body">
+                                <br>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

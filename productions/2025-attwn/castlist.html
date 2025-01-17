@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cast List - GHMV Class of 2025</title>
+    <link rel="stylesheet" href="/css/default.css">
+    <link rel="stylesheet" href="/css/castlist.css">
+    <script>
+        fetch('/static/header.html')
+          .then(function(response) {
+            return response.text();
+          })
+          .then(function(body) {
+            document.querySelector('#header').innerHTML = body;
+          });
+    </script>
+</head>
+<body>
+    <div id="header"></div>
+    <table class="slate">
+        <tr >
+            <td>
+                <table style="width: 100%">
+                    <tr>
+                        <td id="casta" style="width: 50%">
+                            <h2><u>C A S T</u></h2>
+                            <h3><em>January 24th and 25th, 2025</em></h3>
+                            <pre>Mr. Tom Rodgers ..................................................................Peter Carrasco<br>Mrs. Ethel Rodgers ............................................................Allyson Watkins<br>Philip Lombard .............................................................Andrew Greenaway<br>Vera Claythorne ..............................................................Bernadette Baran<br>Anthony Marston ..........................................................Andrew Greenaway<br>William Henry Blore ...........................................................Everett Goforth<br>General John MacKenzie ....................................................Aiden Martinez<br>Emily Brent ................................................................................Avarie Jury<br>Judge Hilda Wargrave ...........................................................Coco Hartnett<br>Dr. Edward Armstrong ..........................................................Dylan Markey<br>Boatman Fred .......................................................................Teresa Cannon<br>and<br>Gramaphone Voice ...........................................................Jeremy Hausotter</pre>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td id="credits" style="width: 100%">
+                <h2><u>C R E D I T S</u></h2>
+                <pre>Co-Director ......................................................................Bernadette Baran<br>Co-Director .....................................................................Bernadette Mathie<br>Technical Directors ..................................Matthew Diaz and Jett Pittman<br>Head of Special Effects .....................................................Jamey Rodriguez<br>Head of Set ....................................................................................Luke Dow<br>Propmaster .........................................................................Abigail Walthall</pre>
+            </td>
+        </tr>
+    </table>
+    <br>
+</body>
+</html>

@@ -11,11 +11,16 @@
     border-collapse: collapse;
     margin-left: auto;
     margin-right: auto;
-    min-width: 30%;
+    min-width: 70%;
 }
 
 #ticket-table th, #ticket-table td {
     border: 1px black solid;
+    padding: 2%;
+}
+
+#ticket-table td a {
+    color: black;
 }
 
 #calendar-table {
